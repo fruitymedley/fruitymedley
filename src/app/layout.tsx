@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -15,7 +15,6 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <main>{children}</main>
-        
       </body>
     </html>
   );
